@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "hello_world=mybot_controller.hello_world:main"
+            "hello_world=mybot_controller.hello_world:main",
+            "draw_circle=mybot_controller.draw_circle:main"
         ],
     },
 )

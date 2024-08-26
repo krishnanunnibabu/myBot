@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/mybot_controller/mybot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/mybot_controller/mybot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/mybot_controller/mybot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/mybot_controller/mybot_controller.egg-info/requires.txt
+writing top-level names to ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
+reading manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mybot_controller/draw_circle.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller
+copying mybot_controller/hello_world.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller
+running install
+running install_lib
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/draw_circle.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/hello_world.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/draw_circle.py to draw_circle.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/hello_world.py to hello_world.cpython-38.pyc
+running install_data
+copying package.xml -> /home/krish/myBot/install/mybot_controller/share/mybot_controller
+running install_egg_info
+removing '/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mybot_controller/mybot_controller.egg-info to /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing hello_world=mybot_controller.hello_world:maindraw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+writing list of installed files to '/home/krish/myBot/build/mybot_controller/install.log'

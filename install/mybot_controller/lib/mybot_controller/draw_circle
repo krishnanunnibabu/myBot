@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'mybot-controller','console_scripts','hello_world'
+# EASY-INSTALL-ENTRY-SCRIPT: 'mybot-controller','console_scripts','draw_circle'
 __requires__ = 'mybot-controller'
 import re
 import sys
@@ -8,5 +8,5 @@ from pkg_resources import load_entry_point
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
     sys.exit(
-        load_entry_point('mybot-controller', 'console_scripts', 'hello_world')()
+        load_entry_point('mybot-controller', 'console_scripts', 'draw_circle')()
     )

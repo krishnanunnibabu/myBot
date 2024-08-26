@@ -4,3 +4,6 @@ source;share/mybot_controller/hook/pythonpath.sh
 source;share/mybot_controller/hook/ament_prefix_path.ps1
 source;share/mybot_controller/hook/ament_prefix_path.dsv
 source;share/mybot_controller/hook/ament_prefix_path.sh
+source;../../build/mybot_controller/share/mybot_controller/hook/pythonpath_develop.ps1
+source;../../build/mybot_controller/share/mybot_controller/hook/pythonpath_develop.dsv
+source;../../build/mybot_controller/share/mybot_controller/hook/pythonpath_develop.sh

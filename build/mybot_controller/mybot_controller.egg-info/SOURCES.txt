@@ -9,8 +9,13 @@ setup.py
 ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
 ../../build/mybot_controller/mybot_controller.egg-info/zip-safe
 mybot_controller/__init__.py
+mybot_controller/draw_circle.py
 mybot_controller/hello_world.py
+mybot_controller.egg-info/PKG-INFO
+mybot_controller.egg-info/SOURCES.txt
+mybot_controller.egg-info/dependency_links.txt
+mybot_controller.egg-info/entry_points.txt
+mybot_controller.egg-info/requires.txt
+mybot_controller.egg-info/top_level.txt
+mybot_controller.egg-info/zip-safe
 resource/mybot_controller
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

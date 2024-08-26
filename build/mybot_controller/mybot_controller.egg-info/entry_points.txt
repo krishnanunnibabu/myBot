@@ -1,3 +1,4 @@
 [console_scripts]
+draw_circle = mybot_controller.draw_circle:main
 hello_world = mybot_controller.hello_world:main
 
