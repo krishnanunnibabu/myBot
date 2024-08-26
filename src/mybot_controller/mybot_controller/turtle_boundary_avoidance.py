@@ -9,6 +9,7 @@ class TurtleBoundaryAvoidanceNode(Node):
         super().__init__("turtle_boundary_avoidance")
         self.cmd_vel_pub_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
         self.pose_subscriber_ = self.create_subscription(Pose, "/turtle1/pose", self.pose_callback, 10)
+        self.get_logger().info("Node has started....")
 
     def pose_callback(self, msg:Pose):
         self.cmd_vel_ = Twist()
