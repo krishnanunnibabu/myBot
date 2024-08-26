@@ -1,0 +1,3 @@
+[console_scripts]
+hello_world = mybot_controller.hello_world:main
+
