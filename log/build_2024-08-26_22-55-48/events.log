@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (mybot_controller) JobQueued: {'identifier': 'mybot_controller', 'dependencies': OrderedDict()}
+[0.001277] (mybot_controller) JobStarted: {'identifier': 'mybot_controller'}
+[0.101289] (-) TimerEvent: {}
+[0.202270] (-) TimerEvent: {}
+[0.308204] (-) TimerEvent: {}
+[0.408731] (-) TimerEvent: {}
+[0.509635] (-) TimerEvent: {}
+[0.609920] (-) TimerEvent: {}
+[0.711056] (-) TimerEvent: {}
+[0.811855] (-) TimerEvent: {}
+[0.818965] (mybot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mybot_controller', 'build', '--build-base', '/home/krish/myBot/build/mybot_controller/build', 'install', '--record', '/home/krish/myBot/build/mybot_controller/install.log', '--install-scripts', '$base/lib/mybot_controller', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/krish/myBot/src/mybot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'krish', 'SSH_AGENT_PID': '1423', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/krish', 'OLDPWD': '/home/krish/myBot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1288', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/krish/myBot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'krish', 'JOURNAL_STREAM': '8:35139', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'krish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/krish-vm:@/tmp/.ICE-unix/1477,unix/krish-vm:/tmp/.ICE-unix/1477', 'INVOCATION_ID': 'fb90bf70746443538c8c2afd1972fdbf', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e360949f_098c_49c5_822f_e06c797f14a9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.595', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/krish/myBot/install/mybot_controller:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/krish/myBot/build/mybot_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.912016] (-) TimerEvent: {}
+[1.012479] (-) TimerEvent: {}
+[1.087027] (mybot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.087774] (mybot_controller) StdoutLine: {'line': b'writing ../../build/mybot_controller/mybot_controller.egg-info/PKG-INFO\n'}
+[1.087974] (mybot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/mybot_controller/mybot_controller.egg-info/dependency_links.txt\n'}
+[1.088146] (mybot_controller) StdoutLine: {'line': b'writing entry points to ../../build/mybot_controller/mybot_controller.egg-info/entry_points.txt\n'}
+[1.088606] (mybot_controller) StdoutLine: {'line': b'writing requirements to ../../build/mybot_controller/mybot_controller.egg-info/requires.txt\n'}
+[1.088699] (mybot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt\n'}
+[1.113440] (-) TimerEvent: {}
+[1.136361] (mybot_controller) StdoutLine: {'line': b"reading manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'\n"}
+[1.137365] (mybot_controller) StdoutLine: {'line': b"writing manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'\n"}
+[1.137756] (mybot_controller) StdoutLine: {'line': b'running build\n'}
+[1.137852] (mybot_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.137931] (mybot_controller) StdoutLine: {'line': b'copying mybot_controller/pose_subscriber.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller\n'}
+[1.138117] (mybot_controller) StdoutLine: {'line': b'running install\n'}
+[1.138965] (mybot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.140179] (mybot_controller) StdoutLine: {'line': b'copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/pose_subscriber.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller\n'}
+[1.140866] (mybot_controller) StdoutLine: {'line': b'byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/pose_subscriber.py to pose_subscriber.cpython-38.pyc\n'}
+[1.142989] (mybot_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.143367] (mybot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.144937] (mybot_controller) StdoutLine: {'line': b"removing '/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.145329] (mybot_controller) StdoutLine: {'line': b'Copying ../../build/mybot_controller/mybot_controller.egg-info to /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info\n'}
+[1.146230] (mybot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.167537] (mybot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller\n'}
+[1.167911] (mybot_controller) StdoutLine: {'line': b'Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller\n'}
+[1.168004] (mybot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller\n'}
+[1.168202] (mybot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/krish/myBot/build/mybot_controller/install.log'\n"}
+[1.206555] (mybot_controller) CommandEnded: {'returncode': 0}
+[1.213499] (-) TimerEvent: {}
+[1.221857] (mybot_controller) JobEnded: {'identifier': 'mybot_controller', 'rc': 0}
+[1.223315] (-) EventReactorShutdown: {}

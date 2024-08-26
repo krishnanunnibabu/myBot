@@ -11,6 +11,8 @@ setup.py
 mybot_controller/__init__.py
 mybot_controller/draw_circle.py
 mybot_controller/hello_world.py
+mybot_controller/pose_subscriber.py
+mybot_controller/turtle_boundary_avoidance.py
 mybot_controller.egg-info/PKG-INFO
 mybot_controller.egg-info/SOURCES.txt
 mybot_controller.egg-info/dependency_links.txt

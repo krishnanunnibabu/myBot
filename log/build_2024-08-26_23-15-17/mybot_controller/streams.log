@@ -1,0 +1,27 @@
+[0.870s] Invoking command in '/home/krish/myBot/src/mybot_controller': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_controller build --build-base /home/krish/myBot/build/mybot_controller/build install --record /home/krish/myBot/build/mybot_controller/install.log --install-scripts $base/lib/mybot_controller --single-version-externally-managed install_data
+[1.130s] running egg_info
+[1.130s] writing ../../build/mybot_controller/mybot_controller.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/mybot_controller/mybot_controller.egg-info/dependency_links.txt
+[1.131s] writing entry points to ../../build/mybot_controller/mybot_controller.egg-info/entry_points.txt
+[1.131s] writing requirements to ../../build/mybot_controller/mybot_controller.egg-info/requires.txt
+[1.131s] writing top-level names to ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
+[1.180s] reading manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+[1.182s] writing manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.183s] copying mybot_controller/turtle_boundary_avoidance.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller
+[1.183s] running install
+[1.184s] running install_lib
+[1.185s] copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/turtle_boundary_avoidance.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+[1.186s] byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/turtle_boundary_avoidance.py to turtle_boundary_avoidance.cpython-38.pyc
+[1.188s] running install_data
+[1.188s] running install_egg_info
+[1.190s] removing '/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[1.190s] Copying ../../build/mybot_controller/mybot_controller.egg-info to /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info
+[1.191s] running install_scripts
+[1.213s] Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.214s] Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.214s] Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.214s] Installing turtle_boundary_avoidance script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.214s] writing list of installed files to '/home/krish/myBot/build/mybot_controller/install.log'
+[1.253s] Invoked command in '/home/krish/myBot/src/mybot_controller' returned '0': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_controller build --build-base /home/krish/myBot/build/mybot_controller/build install --record /home/krish/myBot/build/mybot_controller/install.log --install-scripts $base/lib/mybot_controller --single-version-externally-managed install_data

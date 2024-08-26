@@ -1,0 +1,34 @@
+[0.774s] Invoking command in '/home/krish/myBot/build/mybot_controller': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/krish/myBot/build/mybot_controller/build
+[1.047s] running develop
+[1.184s] Removing /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot-controller.egg-link (link to .)
+[1.221s] Invoked command in '/home/krish/myBot/build/mybot_controller' returned '0': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/krish/myBot/build/mybot_controller/build
+[1.225s] Invoking command in '/home/krish/myBot/src/mybot_controller': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_controller build --build-base /home/krish/myBot/build/mybot_controller/build install --record /home/krish/myBot/build/mybot_controller/install.log --install-scripts $base/lib/mybot_controller --single-version-externally-managed install_data --force
+[1.483s] running egg_info
+[1.484s] writing ../../build/mybot_controller/mybot_controller.egg-info/PKG-INFO
+[1.484s] writing dependency_links to ../../build/mybot_controller/mybot_controller.egg-info/dependency_links.txt
+[1.485s] writing entry points to ../../build/mybot_controller/mybot_controller.egg-info/entry_points.txt
+[1.485s] writing requirements to ../../build/mybot_controller/mybot_controller.egg-info/requires.txt
+[1.485s] writing top-level names to ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
+[1.534s] reading manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.536s] running install
+[1.536s] running install_lib
+[1.538s] creating /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+[1.538s] copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/draw_circle.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+[1.538s] copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/__init__.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+[1.538s] copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/hello_world.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+[1.539s] byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/draw_circle.py to draw_circle.cpython-38.pyc
+[1.540s] byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/__init__.py to __init__.cpython-38.pyc
+[1.541s] byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/hello_world.py to hello_world.cpython-38.pyc
+[1.541s] running install_data
+[1.541s] copying resource/mybot_controller -> /home/krish/myBot/install/mybot_controller/share/ament_index/resource_index/packages
+[1.542s] copying package.xml -> /home/krish/myBot/install/mybot_controller/share/mybot_controller
+[1.542s] running install_egg_info
+[1.543s] Copying ../../build/mybot_controller/mybot_controller.egg-info to /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info
+[1.544s] running install_scripts
+[1.565s] Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.566s] Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.566s] writing list of installed files to '/home/krish/myBot/build/mybot_controller/install.log'
+[1.603s] Invoked command in '/home/krish/myBot/src/mybot_controller' returned '0': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mybot_controller build --build-base /home/krish/myBot/build/mybot_controller/build install --record /home/krish/myBot/build/mybot_controller/install.log --install-scripts $base/lib/mybot_controller --single-version-externally-managed install_data --force
