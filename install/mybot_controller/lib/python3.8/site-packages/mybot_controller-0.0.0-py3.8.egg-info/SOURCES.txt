@@ -9,11 +9,7 @@ setup.py
 ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
 ../../build/mybot_controller/mybot_controller.egg-info/zip-safe
 mybot_controller/__init__.py
-mybot_controller/draw_circle.py
-mybot_controller/hello_world.py
-mybot_controller/pose_subscriber.py
-mybot_controller/turtle_boundary_avoidance.py
-mybot_controller/turtle_test.py
+mybot_controller/turtle_catcher.py
 resource/mybot_controller
 test/test_copyright.py
 test/test_flake8.py

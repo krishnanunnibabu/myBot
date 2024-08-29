@@ -1,4 +1,5 @@
 [console_scripts]
+catcher = mybot_controller.turtle_catcher:main
 draw_circle = mybot_controller.draw_circle:main
 hello_world = mybot_controller.hello_world:main
 pose_subscriber = mybot_controller.pose_subscriber:main

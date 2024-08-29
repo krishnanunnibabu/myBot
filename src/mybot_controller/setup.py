@@ -23,7 +23,8 @@ setup(
             "hello_world=mybot_controller.hello_world:main",
             "draw_circle=mybot_controller.draw_circle:main",
             "pose_subscriber=mybot_controller.pose_subscriber:main",
-            "turtle_boundary_avoidance=mybot_controller.turtle_boundary_avoidance:main"
+            "turtle_boundary_avoidance=mybot_controller.turtle_boundary_avoidance:main",
+            "catcher = mybot_controller.turtle_catcher:main"
         ],
     },
 )

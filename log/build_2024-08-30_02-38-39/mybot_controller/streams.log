@@ -1,0 +1,21 @@
+[0.848s] Invoking command in '/home/krish/myBot/build/mybot_controller': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/krish/myBot/build/mybot_controller/build --no-deps symlink_data
+[1.115s] running develop
+[1.257s] running egg_info
+[1.258s] writing mybot_controller.egg-info/PKG-INFO
+[1.258s] writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+[1.258s] writing entry points to mybot_controller.egg-info/entry_points.txt
+[1.258s] writing requirements to mybot_controller.egg-info/requires.txt
+[1.258s] writing top-level names to mybot_controller.egg-info/top_level.txt
+[1.304s] reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[1.306s] writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[1.355s] running build_ext
+[1.356s] Creating /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot-controller.egg-link (link to .)
+[1.357s] Installing catcher script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.357s] Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.357s] Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.357s] Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.358s] Installing turtle_boundary_avoidance script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.358s] 
+[1.358s] Installed /home/krish/myBot/build/mybot_controller
+[1.358s] running symlink_data
+[1.408s] Invoked command in '/home/krish/myBot/build/mybot_controller' returned '0': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/krish/myBot/build/mybot_controller/build --no-deps symlink_data

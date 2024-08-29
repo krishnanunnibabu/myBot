@@ -1,0 +1,23 @@
+[0.831s] Invoking command in '/home/krish/myBot/build/mybot_controller': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/krish/myBot/build/mybot_controller/build --no-deps symlink_data --force
+[1.106s] running develop
+[1.254s] running egg_info
+[1.254s] writing mybot_controller.egg-info/PKG-INFO
+[1.254s] writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+[1.255s] writing entry points to mybot_controller.egg-info/entry_points.txt
+[1.255s] writing requirements to mybot_controller.egg-info/requires.txt
+[1.255s] writing top-level names to mybot_controller.egg-info/top_level.txt
+[1.300s] reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[1.301s] writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+[1.348s] running build_ext
+[1.349s] Creating /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot-controller.egg-link (link to .)
+[1.350s] Installing catcher script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.350s] Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.351s] Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.351s] Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.351s] Installing turtle_boundary_avoidance script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+[1.351s] 
+[1.351s] Installed /home/krish/myBot/build/mybot_controller
+[1.351s] running symlink_data
+[1.352s] symbolically linking /home/krish/myBot/build/mybot_controller/resource/mybot_controller -> /home/krish/myBot/install/mybot_controller/share/ament_index/resource_index/packages
+[1.352s] symbolically linking /home/krish/myBot/build/mybot_controller/package.xml -> /home/krish/myBot/install/mybot_controller/share/mybot_controller
+[1.413s] Invoked command in '/home/krish/myBot/build/mybot_controller' returned '0': PYTHONPATH=/home/krish/myBot/build/mybot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/krish/myBot/build/mybot_controller/build --no-deps symlink_data --force

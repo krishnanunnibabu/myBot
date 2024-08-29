@@ -1,4 +1,4 @@
-/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/launch/mybot_controller.launch.py
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/launch/catcher.launch.py
 /home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/package_run_dependencies/mybot_bringup
 /home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/parent_prefix_path/mybot_bringup
 /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/ament_prefix_path.sh
