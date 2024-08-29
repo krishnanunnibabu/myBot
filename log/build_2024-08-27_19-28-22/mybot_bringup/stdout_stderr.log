@@ -1,0 +1,11 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/krish/myBot/build/mybot_bringup
+-- Install configuration: ""
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find "/home/krish/myBot/src/mybot_bringup/launch": No
+  such file or directory.
+
+

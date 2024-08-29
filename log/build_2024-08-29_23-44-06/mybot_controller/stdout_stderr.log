@@ -1,0 +1,40 @@
+running develop
+Removing /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot-controller.egg-link (link to .)
+running egg_info
+writing ../../build/mybot_controller/mybot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/mybot_controller/mybot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/mybot_controller/mybot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/mybot_controller/mybot_controller.egg-info/requires.txt
+writing top-level names to ../../build/mybot_controller/mybot_controller.egg-info/top_level.txt
+reading manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/mybot_controller/mybot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mybot_controller/turtle_test.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller
+copying mybot_controller/turtle_boundary_avoidance.py -> /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller
+running install
+running install_lib
+creating /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/pose_subscriber.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/draw_circle.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/__init__.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/turtle_test.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/turtle_boundary_avoidance.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+copying /home/krish/myBot/build/mybot_controller/build/lib/mybot_controller/hello_world.py -> /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/pose_subscriber.py to pose_subscriber.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/draw_circle.py to draw_circle.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/turtle_test.py to turtle_test.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/turtle_boundary_avoidance.py to turtle_boundary_avoidance.cpython-38.pyc
+byte-compiling /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller/hello_world.py to hello_world.cpython-38.pyc
+running install_data
+copying resource/mybot_controller -> /home/krish/myBot/install/mybot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/krish/myBot/install/mybot_controller/share/mybot_controller
+running install_egg_info
+Copying ../../build/mybot_controller/mybot_controller.egg-info to /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing turtle_boundary_avoidance script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+writing list of installed files to '/home/krish/myBot/build/mybot_controller/install.log'

@@ -1,0 +1,4 @@
+Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup
+Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '1': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup

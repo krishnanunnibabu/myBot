@@ -1,0 +1,16 @@
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/launch/mybot_controller.launch.py
+/home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/package_run_dependencies/mybot_bringup
+/home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/parent_prefix_path/mybot_bringup
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/ament_prefix_path.sh
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/ament_prefix_path.dsv
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/path.sh
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/path.dsv
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.bash
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.sh
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.zsh
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.dsv
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/package.dsv
+/home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/packages/mybot_bringup
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/cmake/mybot_bringupConfig.cmake
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/cmake/mybot_bringupConfig-version.cmake
+/home/krish/myBot/install/mybot_bringup/share/mybot_bringup/package.xml

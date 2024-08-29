@@ -1,0 +1,15 @@
+[0.045s] Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+[0.083s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.490s] -- Configuring done
+[0.493s] -- Generating done
+[0.495s] -- Build files have been written to: /home/krish/myBot/build/mybot_bringup
+[0.526s] Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+[0.572s] Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup
+[0.584s] -- Install configuration: ""
+[0.585s] CMake Error at cmake_install.cmake:41 (file):
+[0.585s]   file INSTALL cannot find "/home/krish/myBot/src/mybot_bringup/launch": No
+[0.585s]   such file or directory.
+[0.585s] 
+[0.585s] 
+[0.587s] Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '1': CMAKE_PREFIX_PATH=/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup

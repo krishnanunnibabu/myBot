@@ -1,0 +1,30 @@
+[0.039s] Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake /home/krish/myBot/src/mybot_bringup -DCMAKE_INSTALL_PREFIX=/home/krish/myBot/install/mybot_bringup
+[0.335s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.335s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.346s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.480s] -- Configuring done
+[0.488s] -- Generating done
+[0.489s] -- Build files have been written to: /home/krish/myBot/build/mybot_bringup
+[0.493s] Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake /home/krish/myBot/src/mybot_bringup -DCMAKE_INSTALL_PREFIX=/home/krish/myBot/install/mybot_bringup
+[0.498s] Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+[0.546s] Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --build /home/krish/myBot/build/mybot_bringup -- -j4 -l4
+[0.594s] Invoking command in '/home/krish/myBot/build/mybot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup
+[0.604s] -- Install configuration: ""
+[0.604s] -- Execute custom install script
+[0.606s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/launch/mybot_controller.launch.py
+[0.606s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/package_run_dependencies/mybot_bringup
+[0.607s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/parent_prefix_path/mybot_bringup
+[0.608s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/ament_prefix_path.sh
+[0.608s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/ament_prefix_path.dsv
+[0.609s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/path.sh
+[0.609s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/environment/path.dsv
+[0.610s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.bash
+[0.610s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.sh
+[0.611s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.zsh
+[0.611s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/local_setup.dsv
+[0.612s] -- Symlinking: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/package.dsv
+[0.623s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/ament_index/resource_index/packages/mybot_bringup
+[0.624s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/cmake/mybot_bringupConfig.cmake
+[0.625s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/cmake/mybot_bringupConfig-version.cmake
+[0.625s] -- Up-to-date symlink: /home/krish/myBot/install/mybot_bringup/share/mybot_bringup/package.xml
+[0.630s] Invoked command in '/home/krish/myBot/build/mybot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/myBot/install/mybot_controller:/opt/ros/foxy /usr/bin/cmake --install /home/krish/myBot/build/mybot_bringup
