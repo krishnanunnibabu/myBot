@@ -17,7 +17,7 @@ class TurtleCatchNode(Node):
         self.threshold = 0.5
         self.pose_sub = self.create_subscription(Pose, "/turtle1/pose", callback=self.get_pose, qos_profile=10)
         self.cmd_vel_pub = self.create_publisher(Twist, "/turtle1/cmd_vel", qos_profile=10)
-        self.set_pen(183, 169, 127)
+        self.set_pen(183, 169, 107)
         self.create_timer(0.1, self.main)
         self.spawn()
 
@@ -41,7 +41,7 @@ class TurtleCatchNode(Node):
         self.pose = data
 
     def spawn(self):
-        self.set_pen(183, 169, 127)
+        self.set_pen(183, 169, 107)
         self.x = random.uniform(0,11)
         self.y = random.uniform(0,11)
         while abs(self.y - self.pose.y) < 3:

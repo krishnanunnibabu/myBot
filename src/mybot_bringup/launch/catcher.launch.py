@@ -7,7 +7,7 @@ def generate_launch_description():
         package="turtlesim",
         executable="turtlesim_node",
         parameters=[
-            {"background_b": 147},
+            {"background_b": 127},
             {"background_g": 189},
             {"background_r": 203}
         ]
