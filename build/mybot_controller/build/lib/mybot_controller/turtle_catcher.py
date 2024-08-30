@@ -12,12 +12,14 @@ import time
 class TurtleCatchNode(Node):
     def __init__(self):
         super().__init__("catcher")
+
+        self.threshold = 0.5
+
         self.get_logger().info("Node has started")
         self.pose = Pose()
-        self.threshold = 0.5
         self.pose_sub = self.create_subscription(Pose, "/turtle1/pose", callback=self.get_pose, qos_profile=10)
         self.cmd_vel_pub = self.create_publisher(Twist, "/turtle1/cmd_vel", qos_profile=10)
-        self.set_pen(183, 169, 127)
+        self.set_pen(183, 169, 107)
         self.create_timer(0.1, self.main)
         self.spawn()
 
@@ -41,7 +43,7 @@ class TurtleCatchNode(Node):
         self.pose = data
 
     def spawn(self):
-        self.set_pen(183, 169, 127)
+        self.set_pen(183, 169, 107)
         self.x = random.uniform(0,11)
         self.y = random.uniform(0,11)
         while abs(self.y - self.pose.y) < 3:
@@ -94,10 +96,10 @@ class TurtleCatchNode(Node):
     def azimuth_calc(self):
         return atan2((self.y - self.pose.y), (self.x - self.pose.x))
     
-    def linear_vel(self, const=1):
+    def linear_vel(self, const):
         return const * self.distance
     
-    def angular_vel(self, const=1.0):
+    def angular_vel(self, const):
         return const * (self.azimuth - self.pose.theta)
 
 

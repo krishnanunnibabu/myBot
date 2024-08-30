@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing mybot_controller.egg-info/PKG-INFO
+writing dependency_links to mybot_controller.egg-info/dependency_links.txt
+writing entry points to mybot_controller.egg-info/entry_points.txt
+writing requirements to mybot_controller.egg-info/requires.txt
+writing top-level names to mybot_controller.egg-info/top_level.txt
+reading manifest file 'mybot_controller.egg-info/SOURCES.txt'
+writing manifest file 'mybot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/krish/myBot/install/mybot_controller/lib/python3.8/site-packages/mybot-controller.egg-link (link to .)
+Installing catcher script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing draw_circle script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing hello_world script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing pose_subscriber script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+Installing turtle_boundary_avoidance script to /home/krish/myBot/install/mybot_controller/lib/mybot_controller
+
+Installed /home/krish/myBot/build/mybot_controller
+running symlink_data
